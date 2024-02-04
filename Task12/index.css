@@ -1,0 +1,89 @@
+body {
+  background-color: #739072;
+  color: #fff;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-links:hover {
+  background-color: #d2e3c8;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-links {
+  padding: 20px;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+}
+
+form {
+  background-color: #fff;
+  color: black;
+  margin: auto;
+  padding: 50px;
+  width: 450px;
+}
+
+#question1,
+#question2,
+#question3,
+#question4,
+#question5,
+#question6,
+#question7,
+#question8,
+#question9,
+#question10,
+#question11,
+#question12,
+#question13,
+#question14,
+#question15,
+#question16,
+#question17,
+#question18,
+#question19,
+#question20,
+#question21,
+#question22,
+#question23,
+#question24,
+#question25,
+#question26,
+#question27,
+#question28,
+#question29,
+#question30 {
+  margin: 30px 0;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #97da9a;
+}

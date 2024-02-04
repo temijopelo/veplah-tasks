@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Task 12</title>
+</head>
+
+<body>
+
+    <div class="nav">
+        <ul class="navbar">
+            <li class="navbar-links"><a class="nav-link" href="#">Home</a></li>
+            <li class="navbar-links"><a class="nav-link" href="#">About</a></li>
+            <li class="navbar-links"><a class="nav-link" href="#">Contact</a></li>
+            <li class="navbar-links"><a class="nav-link" href="#">Socials</a></li>
+        </ul>
+    </div>
+
+    <h1>Survey For Vephla</h1>
+    <p>Fill with discretion...</p>
+
+    <!-- Form -->
+    <form action="/submit" method="post">
+
+        <!-- Question 1 -->
+        <div id="question1">
+            <label for="q1">1. What is your favorite color?</label><br>
+            <input type="radio" id="q1_option1" name="q1" value="Red">
+            <label for="q1_option1">Red</label><br>
+            <input type="radio" id="q1_option2" name="q1" value="Blue">
+            <label for="q1_option2">Blue</label><br>
+            <input type="radio" id="q1_option3" name="q1" value="Green">
+            <label for="q1_option3">Green</label><br>
+        </div>
+
+        <!-- Question 2 -->
+        <div id="question2">
+            <label for="q2">2. How often do you exercise?</label><br>
+            <input type="radio" id="q2_option1" name="q2" value="Daily">
+            <label for="q2_option1">Daily</label><br>
+            <input type="radio" id="q2_option2" name="q2" value="Weekly">
+            <label for="q2_option2">Weekly</label><br>
+            <input type="radio" id="q2_option3" name="q2" value="Monthly">
+            <label for="q2_option3">Monthly</label><br>
+        </div>
+
+        <!-- Question 3 -->
+        <div id="question3">
+            <label for="q3">3. Which movie genre do you prefer?</label><br>
+            <input type="radio" id="q3_option1" name="q3" value="Action">
+            <label for="q3_option1">Action</label><br>
+            <input type="radio" id="q3_option2" name="q3" value="Comedy">
+            <label for="q3_option2">Comedy</label><br>
+            <input type="radio" id="q3_option3" name="q3" value="Drama">
+            <label for="q3_option3">Drama</label><br>
+        </div>
+
+
+        <!-- Question 4 -->
+        <div id="question4">
+            <label for="q4">4. What is your preferred mode of transportation?</label><br>
+            <input type="radio" id="q4_option1" name="q4" value="Car">
+            <label for="q4_option1">Car</label><br>
+            <input type="radio" id="q4_option2" name="q4" value="Bicycle">
+            <label for="q4_option2">Bicycle</label><br>
+            <input type="radio" id="q4_option3" name="q4" value="Public Transit">
+            <label for="q4_option3">Public Transit</label><br>
+        </div>
+
+        <!-- Question 5 -->
+        <div id="question5">
+            <label for="q5">5. Which season do you enjoy the most?</label><br>
+            <input type="radio" id="q5_option1" name="q5" value="Spring">
+            <label for="q5_option1">Spring</label><br>
+            <input type="radio" id="q5_option2" name="q5" value="Summer">
+            <label for="q5_option2">Summer</label><br>
+            <input type="radio" id="q5_option3" name="q5" value="Fall">
+            <label for="q5_option3">Fall</label><br>
+        </div>
+
+        <!-- Question 6 -->
+        <div id="question6">
+            <label for="q6">6. What is your favorite type of music?</label><br>
+            <input type="radio" id="q6_option1" name="q6" value="Pop">
+            <label for="q6_option1">Pop</label><br>
+            <input type="radio" id="q6_option2" name="q6" value="Rock">
+            <label for="q6_option2">Rock</label><br>
+            <input type="radio" id="q6_option3" name="q6" value="Hip Hop">
+            <label for="q6_option3">Hip Hop</label><br>
+        </div>
+
+
+        <!-- Question 7 -->
+        <div id="question7">
+            <label for="q7">7. What is your preferred type of vacation?</label><br>
+            <input type="radio" id="q7_option1" name="q7" value="Beach Resort">
+            <label for="q7_option1">Beach Resort</label><br>
+            <input type="radio" id="q7_option2" name="q7" value="Mountain Retreat">
+            <label for="q7_option2">Mountain Retreat</label><br>
+            <input type="radio" id="q7_option3" name="q7" value="City Exploration">
+            <label for="q7_option3">City Exploration</label><br>
+        </div>
+
+        <!-- Question 8 -->
+        <div id="question8">
+            <label for="q8">8. How do you prefer to start your day?</label><br>
+            <input type="radio" id="q8_option1" name="q8" value="Coffee">
+            <label for="q8_option1">Coffee</label><br>
+            <input type="radio" id="q8_option2" name="q8" value="Tea">
+            <label for="q8_option2">Tea</label><br>
+            <input type="radio" id="q8_option3" name="q8" value="Smoothie">
+            <label for="q8_option3">Smoothie</label><br>
+        </div>
+
+        <!-- Question 9 -->
+        <div id="question9">
+            <label for="q9">9. Which type of books do you enjoy reading?</label><br>
+            <input type="radio" id="q9_option1" name="q9" value="Mystery">
+            <label for="q9_option1">Mystery</label><br>
+            <input type="radio" id="q9_option2" name="q9" value="Science Fiction">
+            <label for="q9_option2">Science Fiction</label><br>
+            <input type="radio" id="q9_option3" name="q9" value="Biography">
+            <label for="q9_option3">Biography</label><br>
+        </div>
+
+
+
+        <!-- Question 10 -->
+        <div id="question10">
+            <label for="q10">10. What type of exercise do you enjoy?</label><br>
+            <input type="radio" id="q10_option1" name="q10" value="Running">
+            <label for="q10_option1">Running</label><br>
+            <input type="radio" id="q10_option2" name="q10" value="Yoga">
+            <label for="q10_option2">Yoga</label><br>
+            <input type="radio" id="q10_option3" name="q10" value="Weightlifting">
+            <label for="q10_option3">Weightlifting</label><br>
+        </div>
+
+        <!-- Question 11 -->
+        <div id="question11">
+            <label for="q11">11. Which type of cuisine is your favorite?</label><br>
+            <input type="radio" id="q11_option1" name="q11" value="Italian">
+            <label for="q11_option1">Italian</label><br>
+            <input type="radio" id="q11_option2" name="q11" value="Mexican">
+            <label for="q11_option2">Mexican</label><br>
+            <input type="radio" id="q11_option3" name="q11" value="Japanese">
+            <label for="q11_option3">Japanese</label><br>
+        </div>
+
+        <!-- Question 12 -->
+        <div id="question12">
+            <label for="q12">12. How do you stay organized?</label><br>
+            <input type="radio" id="q12_option1" name="q12" value="Digital Apps">
+            <label for="q12_option1">Digital Apps</label><br>
+            <input type="radio" id="q12_option2" name="q12" value="Notebook and Pen">
+            <label for="q12_option2">Notebook and Pen</label><br>
+            <input type="radio" id="q12_option3" name="q12" value="Memory">
+            <label for="q12_option3">Memory</label><br>
+        </div>
+
+
+
+        <!-- Question 13 -->
+        <div id="question13">
+            <label for="q13">13. Which type of movies do you enjoy the most?</label><br>
+            <input type="radio" id="q13_option1" name="q13" value="Action">
+            <label for="q13_option1">Action</label><br>
+            <input type="radio" id="q13_option2" name="q13" value="Comedy">
+            <label for="q13_option2">Comedy</label><br>
+            <input type="radio" id="q13_option3" name="q13" value="Drama">
+            <label for="q13_option3">Drama</label><br>
+        </div>
+
+        <!-- Question 14 -->
+        <div id="question14">
+            <label for="q14">14. What is your preferred social media platform?</label><br>
+            <input type="radio" id="q14_option1" name="q14" value="Instagram">
+            <label for="q14_option1">Instagram</label><br>
+            <input type="radio" id="q14_option2" name="q14" value="Twitter">
+            <label for="q14_option2">Twitter</label><br>
+            <input type="radio" id="q14_option3" name="q14" value="LinkedIn">
+            <label for="q14_option3">LinkedIn</label><br>
+        </div>
+
+        <!-- Question 15 -->
+        <div id="question15">
+            <label for="q15">15. How do you prefer to spend your weekends?</label><br>
+            <input type="radio" id="q15_option1" name="q15" value="Outdoor Activities">
+            <label for="q15_option1">Outdoor Activities</label><br>
+            <input type="radio" id="q15_option2" name="q15" value="Relaxing at Home">
+            <label for="q15_option2">Relaxing at Home</label><br>
+            <input type="radio" id="q15_option3" name="q15" value="Socializing with Friends">
+            <label for="q15_option3">Socializing with Friends</label><br>
+        </div>
+
+        <!-- Question 16 -->
+        <div id="question16">
+            <label for="q16">16. What is your preferred mode of communication?</label><br>
+            <input type="radio" id="q16_option1" name="q16" value="Texting">
+            <label for="q16_option1">Texting</label><br>
+            <input type="radio" id="q16_option2" name="q16" value="Phone Calls">
+            <label for="q16_option2">Phone Calls</label><br>
+            <input type="radio" id="q16_option3" name="q16" value="Email">
+            <label for="q16_option3">Email</label><br>
+        </div>
+
+        <!-- Question 17 -->
+        <div id="question17">
+            <label for="q17">17. What is your favorite type of dessert?</label><br>
+            <input type="radio" id="q17_option1" name="q17" value="Chocolate Cake">
+            <label for="q17_option1">Chocolate Cake</label><br>
+            <input type="radio" id="q17_option2" name="q17" value="Ice Cream">
+            <label for="q17_option2">Ice Cream</label><br>
+            <input type="radio" id="q17_option3" name="q17" value="Fruit Tart">
+            <label for="q17_option3">Fruit Tart</label><br>
+        </div>
+
+
+        <!-- Question 18 -->
+        <div id="question18">
+            <label for="q18">18. What is your preferred type of music?</label><br>
+            <input type="radio" id="q18_option1" name="q18" value="Pop">
+            <label for="q18_option1">Pop</label><br>
+            <input type="radio" id="q18_option2" name="q18" value="Rock">
+            <label for="q18_option2">Rock</label><br>
+            <input type="radio" id="q18_option3" name="q18" value="Hip-Hop">
+            <label for="q18_option3">Hip-Hop</label><br>
+        </div>
+
+        <!-- Question 19 -->
+        <div id="question19">
+            <label for="q19">19. What is your favorite season?</label><br>
+            <input type="radio" id="q19_option1" name="q19" value="Spring">
+            <label for="q19_option1">Spring</label><br>
+            <input type="radio" id="q19_option2" name="q19" value="Summer">
+            <label for="q19_option2">Summer</label><br>
+            <input type="radio" id="q19_option3" name="q19" value="Fall">
+            <label for="q19_option3">Fall</label><br>
+        </div>
+
+        <!-- Question 20 -->
+        <div id="question20">
+            <label for="q20">20. What is your preferred mode of transportation?</label><br>
+            <input type="radio" id="q20_option1" name="q20" value="Car">
+            <label for="q20_option1">Car</label><br>
+            <input type="radio" id="q20_option2" name="q20" value="Bicycle">
+            <label for="q20_option2">Bicycle</label><br>
+            <input type="radio" id="q20_option3" name="q20" value="Public Transit">
+            <label for="q20_option3">Public Transit</label><br>
+        </div>
+
+        <!-- Question 21 -->
+        <div id="question21">
+            <label for="q21">21. What is your favorite type of outdoor activity?</label><br>
+            <input type="radio" id="q21_option1" name="q21" value="Hiking">
+            <label for="q21_option1">Hiking</label><br>
+            <input type="radio" id="q21_option2" name="q21" value="Camping">
+            <label for="q21_option2">Camping</label><br>
+            <input type="radio" id="q21_option3" name="q21" value="Picnicking">
+            <label for="q21_option3">Picnicking</label><br>
+        </div>
+
+        <!-- Question 22 -->
+        <div id="question22">
+            <label for="q22">22. What is your preferred gaming platform?</label><br>
+            <input type="radio" id="q22_option1" name="q22" value="PC">
+            <label for="q22_option1">PC</label><br>
+            <input type="radio" id="q22_option2" name="q22" value="Console">
+            <label for="q22_option2">Console</label><br>
+            <input type="radio" id="q22_option3" name="q22" value="Mobile">
+            <label for="q22_option3">Mobile</label><br>
+        </div>
+
+
+        <!-- Question 23 -->
+        <div id="question23">
+            <label for="q23">23. What is your favorite type of book?</label><br>
+            <input type="radio" id="q23_option1" name="q23" value="Mystery">
+            <label for="q23_option1">Mystery</label><br>
+            <input type="radio" id="q23_option2" name="q23" value="Science Fiction">
+            <label for="q23_option2">Science Fiction</label><br>
+            <input type="radio" id="q23_option3" name="q23" value="Romance">
+            <label for="q23_option3">Romance</label><br>
+        </div>
+
+        <!-- Question 24 -->
+        <div id="question24">
+            <label for="q24">24. What is your preferred type of vacation destination?</label><br>
+            <input type="radio" id="q24_option1" name="q24" value="Beach Resort">
+            <label for="q24_option1">Beach Resort</label><br>
+            <input type="radio" id="q24_option2" name="q24" value="Mountain Retreat">
+            <label for="q24_option2">Mountain Retreat</label><br>
+            <input type="radio" id="q24_option3" name="q24" value="City Exploration">
+            <label for="q24_option3">City Exploration</label><br>
+        </div>
+
+        <!-- Question 25 -->
+        <div id="question25">
+            <label for="q25">25. How do you prefer to learn new things?</label><br>
+            <input type="radio" id="q25_option1" name="q25" value="Reading">
+            <label for="q25_option1">Reading</label><br>
+            <input type="radio" id="q25_option2" name="q25" value="Hands-On Experience">
+            <label for="q25_option2">Hands-On Experience</label><br>
+            <input type="radio" id="q25_option3" name="q25" value="Online Courses">
+            <label for="q25_option3">Online Courses</label><br>
+        </div>
+
+        <!-- Question 26 -->
+        <div id="question26">
+            <label for="q26">26. What is your favorite type of art?</label><br>
+            <input type="radio" id="q26_option1" name="q26" value="Painting">
+            <label for="q26_option1">Painting</label><br>
+            <input type="radio" id="q26_option2" name="q26" value="Sculpture">
+            <label for="q26_option2">Sculpture</label><br>
+            <input type="radio" id="q26_option3" name="q26" value="Photography">
+            <label for="q26_option3">Photography</label><br>
+        </div>
+
+        <!-- Question 27 -->
+        <div id="question27">
+            <label for="q27">27. What is your preferred method of relaxation?</label><br>
+            <input type="radio" id="q27_option1" name="q27" value="Meditation">
+            <label for="q27_option1">Meditation</label><br>
+            <input type="radio" id="q27_option2" name="q27" value="Listening to Music">
+            <label for="q27_option2">Listening to Music</label><br>
+            <input type="radio" id="q27_option3" name="q27" value="Watching Movies">
+            <label for="q27_option3">Watching Movies</label><br>
+        </div>
+
+
+        <!-- Question 28 -->
+        <div id="question28">
+            <label for="q28">28. What is your favorite type of cuisine?</label><br>
+            <input type="radio" id="q28_option1" name="q28" value="Italian">
+            <label for="q28_option1">Italian</label><br>
+            <input type="radio" id="q28_option2" name="q28" value="Japanese">
+            <label for="q28_option2">Japanese</label><br>
+            <input type="radio" id="q28_option3" name="q28" value="Mexican">
+            <label for="q28_option3">Mexican</label><br>
+        </div>
+
+        <!-- Question 29 -->
+        <div id="question29">
+            <label for="q29">29. What is your preferred mode of communication?</label><br>
+            <input type="radio" id="q29_option1" name="q29" value="Texting">
+            <label for="q29_option1">Texting</label><br>
+            <input type="radio" id="q29_option2" name="q29" value="Phone Calls">
+            <label for="q29_option2">Phone Calls</label><br>
+            <input type="radio" id="q29_option3" name="q29" value="Face-to-Face">
+            <label for="q29_option3">Face-to-Face</label><br>
+        </div>
+
+        <!-- Question 30 -->
+        <div id="question30">
+            <label for="q30">30. What is your preferred social media platform?</label><br>
+            <input type="radio" id="q30_option1" name="q30" value="Instagram">
+            <label for="q30_option1">Instagram</label><br>
+            <input type="radio" id="q30_option2" name="q30" value="Twitter">
+            <label for="q30_option2">Twitter</label><br>
+            <input type="radio" id="q30_option3" name="q30" value="Facebook">
+            <label for="q30_option3">Facebook</label><br>
+        </div>
+
+
+
+        <!-- Customized Submit Button -->
+        <button type="submit" class="btn">Submit</button>
+
+    </form>
+
+    <h3>Thanks, you'll hear from us soon</h3>
+</body>
+
+</html>
