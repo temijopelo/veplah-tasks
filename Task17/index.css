@@ -134,6 +134,7 @@ h1 {
 .third-layer {
   position: relative;
   height: 480px;
+  padding: 100px;
 }
 
 .btn {
@@ -148,7 +149,7 @@ h1 {
 .aside {
   width: 400px;
   margin-left: 50px;
-  padding: 150px;
+  padding: 50px;
 }
 
 .aside h2 {
@@ -177,6 +178,7 @@ h1 {
   z-index: -1;
   background-color: #fef1ee;
   height: 650px;
+  padding: 50px;
 }
 
 .fourth-layer .aside_img {
@@ -316,11 +318,15 @@ h1 {
   margin: 50px auto;
 }
 
+.eigth-layer {
+  padding: 100px;
+}
+
 .eigth-layer h2 {
   text-align: center;
   width: 600px;
   font-size: 24px;
-  margin: 50px auto;
+  margin: 0 auto 50px;
 }
 
 table {
@@ -328,70 +334,129 @@ table {
   margin: auto;
 }
 
-td {
+td,
+th {
   padding: 10px;
+  text-align: center;
+}
+
+td:hover,
+th:hover {
+  background-color: #e7e7e7;
 }
 
 /* footer  */
-
-.upper-footer {
-  background-color: #232425;
-  color: #fff;
-  margin-top: 7.5rem;
+footer {
+  background-color: #191919;
+  color: white;
+  height: 550px;
+  padding: 50px;
+}
+footer h4 {
+  color: white;
+  padding-bottom: 7px;
+}
+footer ul a {
+  color: grey;
+  margin: 10px 0;
 }
 
-.flex-footer {
-  display: flex;
-  padding: 4rem 3rem;
-  max-width: 80%;
-  margin: auto;
-  justify-content: space-between;
+footer ul a:hover {
+  border-bottom: 1px solid #e7e7e7;
 }
 
-.about-us p {
-  width: 50%;
-  margin: 20px 0;
+ul {
+  list-style-type: none;
+}
+.laptop {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  margin-left: 300px;
+}
+.pc1 {
+  position: absolute;
+  left: 300px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.pc2 {
+  position: absolute;
+  left: 250px;
+  margin-right: 15px;
+  top: 26px;
+  width: 150px;
 }
 
-.about-us-icons i {
-  background-color: #6b6b6b;
-  padding: 1rem;
-  width: 20px;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 16px;
-  margin: 20px 10px 20px 0;
+.pc3 {
+  position: absolute;
+  left: 450px;
+  margin-right: 15px;
+  top: 26px;
+  width: 150px;
 }
 
-.about-us-flex {
-  flex-basis: 50%;
+.pc4 {
+  position: absolute;
+  left: 650px;
+  margin-right: 15px;
+  top: 26px;
+  width: 150px;
 }
 
-.about-us-flex:first-child {
-  flex-basis: 100%;
+.under {
+  position: absolute;
+  top: 100px;
+  margin-right: 15px;
+  margin-top: 50px;
 }
 
-.about-us-list h4 {
-  margin: 12px 0 30px;
+.under2 {
+  position: absolute;
+  top: 100px;
+  margin-right: 15px;
+  margin-top: 50px;
+  left: 250px;
+  width: 300px;
 }
 
-.about-us-list li {
-  margin-bottom: 15px;
+.under3 {
+  position: absolute;
+  top: 100px;
+  margin-right: 15px;
+  margin-top: 50px;
+  left: 450px;
+  width: 300px;
 }
 
-.about-us-list a:hover {
-  color: #000000;
+.under4 {
+  position: absolute;
+  top: 500px;
+  margin-right: 15px;
+  left: 39px;
+  font-size: small;
+  width: 1000px;
+  height: 30px;
 }
 
-.bottom-footer {
-  background-color: #000000;
+li.last {
+  float: left;
+  margin-left: 15px;
 }
 
-.bottom-footer-flex {
-  display: flex;
-  justify-content: space-between;
-  max-width: 90%;
-  margin: auto;
-  padding: 1rem;
-  flex-wrap: wrap-reverse;
+.footer-img-icon {
+  top: 0;
+  position: absolute;
+  right: 1000px;
+}
+
+.dropdown-img {
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+
+.undericons {
+  position: absolute;
+  left: 900px;
 }
