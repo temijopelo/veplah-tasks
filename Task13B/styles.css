@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3c0753;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-size: 35px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+hr {
+  border-style: dashed;
+  border-color: #3c0753;
+}
+
+.heading-section {
+  padding: 30px;
+}
+
+.details-content {
+  padding: 30px;
+}
+
+.required {
+  color: red;
+}
+
+label {
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+
+input {
+  padding: 10px 20px;
+  margin: 20px;
+}

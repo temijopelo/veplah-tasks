@@ -1,0 +1,397 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-background {
+  background: url(img/hero_desktop.webp);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 100px;
+  margin: auto;
+}
+
+.nav-btn {
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.signin-btn {
+  padding: 10px;
+  background-color: #eb1700;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 17px;
+}
+
+.signup-btn {
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  font-size: 17px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bolder;
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 200px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.saved-btn {
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  padding: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-weight: bolder;
+}
+
+.search {
+  text-align: center;
+  width: 300px;
+  padding: 15px;
+  border-radius: 30px;
+  margin: 15px auto;
+  border: none;
+}
+
+.second-layer {
+  position: relative;
+  height: 600px;
+}
+
+.cards {
+  width: 300px;
+  text-align: center;
+}
+
+.cards h2 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.cards p {
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.cards a {
+  color: #eb1700;
+  font-weight: 700;
+}
+
+.scootcard {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.storecard {
+  position: absolute;
+  top: 100px;
+  left: 650px;
+}
+
+.phonecard {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+.third-layer {
+  position: relative;
+  height: 480px;
+}
+
+.btn {
+  padding: 10px;
+  color: #fff;
+  background-color: #eb1700;
+  border-radius: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.aside {
+  width: 400px;
+  margin-left: 50px;
+  padding: 150px;
+}
+
+.aside h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.aside h3 {
+  margin-bottom: 15px;
+}
+
+.aside p {
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.third-layer .aside_img {
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+
+.fourth-layer {
+  position: relative;
+  z-index: -1;
+  background-color: #fef1ee;
+  height: 650px;
+}
+
+.fourth-layer .aside_img {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+.aside2 {
+  width: 400px;
+  position: absolute;
+  right: 20px;
+  padding: 150px;
+  top: 100px;
+}
+
+.aside2 h2 {
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 38px;
+}
+
+.aside2 p {
+  margin-bottom: 30px;
+}
+
+.relatived-fifth {
+  position: relative;
+  margin-bottom: 100px;
+}
+.fifth-layer {
+  background-image: url(img/grocery_desktop.avif);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.text-centered {
+  background-color: black;
+  height: 600px;
+  opacity: 0.6;
+}
+
+.text {
+  text-align: center;
+  color: #fff;
+  width: 400px;
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.text h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.text p {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.sixth-layer {
+  background-color: #fef1ee;
+  height: 2000px;
+  position: relative;
+  z-index: -1;
+}
+
+.sixth-layer h2 {
+  text-align: center;
+  padding-top: 100px;
+  width: 400px;
+  font-size: 32px;
+  margin: auto;
+}
+
+.big-cards {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.big-cards img {
+  width: 500px;
+  height: 600px;
+}
+
+.big-cards h2 {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.big-cards p,
+.big-cards-btn {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.one {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+.two {
+  position: absolute;
+  top: 200px;
+  left: 850px;
+}
+
+.three {
+  position: absolute;
+  top: 1100px;
+  left: 250px;
+}
+
+.four {
+  position: absolute;
+  top: 1100px;
+  left: 850px;
+}
+
+.seventh-layer {
+  position: relative;
+}
+
+.seventh-layer h3 {
+  text-align: center;
+  width: 400px;
+  font-size: 32px;
+  margin: 50px auto;
+}
+
+.eigth-layer h2 {
+  text-align: center;
+  width: 600px;
+  font-size: 24px;
+  margin: 50px auto;
+}
+
+table {
+  width: 1000px;
+  margin: auto;
+}
+
+td {
+  padding: 10px;
+}
+
+/* footer  */
+
+.upper-footer {
+  background-color: #232425;
+  color: #fff;
+  margin-top: 7.5rem;
+}
+
+.flex-footer {
+  display: flex;
+  padding: 4rem 3rem;
+  max-width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.about-us p {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.about-us-icons i {
+  background-color: #6b6b6b;
+  padding: 1rem;
+  width: 20px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 10px 20px 0;
+}
+
+.about-us-flex {
+  flex-basis: 50%;
+}
+
+.about-us-flex:first-child {
+  flex-basis: 100%;
+}
+
+.about-us-list h4 {
+  margin: 12px 0 30px;
+}
+
+.about-us-list li {
+  margin-bottom: 15px;
+}
+
+.about-us-list a:hover {
+  color: #000000;
+}
+
+.bottom-footer {
+  background-color: #000000;
+}
+
+.bottom-footer-flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: auto;
+  padding: 1rem;
+  flex-wrap: wrap-reverse;
+}
