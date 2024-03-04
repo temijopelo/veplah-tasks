@@ -1,0 +1,572 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  border-color: #e0e0e0;
+}
+.top-nav {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.top-nav a {
+  color: #057382;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.top-nav a:hover {
+  border-bottom: 1px solid #057382;
+}
+
+.top-nav i {
+  margin: 0 5px;
+  color: #057382;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-relative-nav {
+  height: 40px;
+}
+
+.nav-bar {
+  height: 80px;
+}
+
+.logo {
+  top: 16px;
+  left: 30px;
+}
+
+.nav-links {
+  top: 30px;
+  left: 100px;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-item a {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.top-icons ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.top-icons {
+  top: 25px;
+  right: 20px;
+}
+
+.nav-icon {
+  margin: 0 15px;
+}
+
+.top-icons i {
+  font-size: 25px;
+}
+
+/* landing page  */
+
+.landing-img {
+  max-width: 90%;
+  margin: auto;
+  background-image: url(img/New_EE_Desktop_Hero_2024_1750x750.jpg.eeimg.2560.21-9.default.jpg);
+  height: 600px;
+  background-size: cover;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.landing-text {
+  padding: 30px;
+  top: 50px;
+  left: 50px;
+}
+
+.landing-text h1 {
+  font-family: "Handjet", sans-serif;
+  font-size: 70px;
+}
+
+.landing-text span h1 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.landing-text p {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 40px;
+  width: 600px;
+}
+
+.landing-text .btn {
+  margin-top: 300px;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.black {
+  background-color: black;
+  color: #e0e0e0;
+}
+
+.black:hover {
+  background-color: rgb(67, 66, 66);
+}
+
+.second-layer {
+  height: 1200px;
+}
+
+.second-layer h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 32px;
+}
+
+/* cards  */
+
+.first-card {
+  height: 500px;
+  width: 600px;
+  background-image: url(img/girl-with-headset.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  left: 200px;
+}
+
+.first-card-text,
+.second-card-text,
+.third-card-text,
+.four-card-text,
+.fifth-card-text {
+  text-align: center;
+}
+
+.first-card-text h3,
+.second-card-text h3,
+.third-card-text h3,
+.four-card-text h3,
+.fifth-card-text h3 {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Quicksand", sans-serif;
+}
+
+.first-card-text p,
+.third-card-text p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.outline:hover {
+  border: 2px solid black;
+}
+
+.first-card-text .btn {
+  font-size: 12px;
+  padding: 15px;
+}
+
+.second-card {
+  background-color: black;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  right: 150px;
+}
+
+.second-card .img {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+
+.second-card-text {
+  color: #fff;
+}
+
+.second-card-text,
+.four-card-text {
+  position: absolute;
+  bottom: 50px;
+}
+
+.second-card-text .btn {
+  color: #fff;
+}
+
+.second-card-text p {
+  margin-bottom: 20px;
+}
+
+.four-card-text p,
+.fifth-card-text p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.second-card-text a {
+  padding: 15px;
+}
+
+.outline-white:hover {
+  border: 2px solid #fff;
+}
+
+.third-card {
+  background-image: url(img/granny-with-white-hair.jpg);
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 520px;
+  left: 200px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.third-card-text a {
+  color: #fff;
+}
+
+.four-card {
+  background-image: url(img/game-of-thrones.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  top: 520px;
+  left: 620px;
+}
+
+.four-card-text a,
+.fifth-card-text a {
+  padding: 10px;
+}
+
+.fifth-card {
+  background-image: url(img/boy-playing-game.jpg);
+  width: 400px;
+  height: 500px;
+  right: 150px;
+  top: 520px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* footer  */
+
+ul {
+  list-style: none;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-item {
+  margin: 25px 0;
+}
+
+.footer-link-one {
+  top: 30px;
+  left: 100px;
+}
+
+.footer-link-two {
+  top: 30px;
+  left: 500px;
+}
+
+.footer-link-three {
+  top: 30px;
+  right: 500px;
+}
+
+.footer-link-four {
+  top: 30px;
+  right: 100px;
+}
+
+footer h4 {
+  margin-bottom: 30px;
+}
+
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text {
+  position: absolute;
+  top: 380px;
+  left: 100px;
+  font-size: 12px;
+}
+
+.social-media li {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.social-media {
+  position: absolute;
+  top: 380px;
+  right: 150px;
+}
+
+.social-media a {
+  padding: 10px;
+}
+
+.social-media a:hover {
+  padding: 10px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: #aeafb1;
+}
+
+.footer-section {
+  height: 450px;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer {
+  background-color: #057382;
+  height: 50px;
+  position: relative;
+  color: #fff;
+}
+
+.bottom-footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.copy-bottom {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+.link-bottom {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.link-bottom li {
+  margin: 0 20px;
+}
+
+.link-bottom a {
+  color: #fff;
+}
+
+/* third-layer  */
+
+.third-layer {
+  height: 850px;
+}
+
+.third-layer h2 {
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.mini-cards {
+  width: 300px;
+}
+
+.mini-card-img {
+  width: 300px;
+}
+
+.mini-card-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.mini-card-text {
+  width: 300px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mini-card-text h4 {
+  margin: 20px 0;
+}
+
+.mini-card-text p {
+  margin: 20px 0;
+}
+
+.mini-card-btn {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.mini-card-btn:hover {
+  background-color: #6d6e71;
+}
+
+.mini-card-btn a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.card-container {
+  max-width: 75%;
+  margin: auto;
+}
+
+.m-two {
+  left: 330px;
+}
+
+.m-three {
+  left: 660px;
+}
+
+.m-three p {
+  margin-bottom: 40px;
+}
+
+.m-four {
+  left: 1000px;
+  width: 230px;
+  overflow: hidden;
+}
+
+.angle-icons {
+  padding: 10px;
+  background-color: #ebebeb;
+  border-radius: 100%;
+  width: 20px;
+  text-align: center;
+}
+
+.angle-left {
+  top: 500px;
+  left: 545px;
+  color: #6d6e71;
+  background-color: #ebebeb;
+}
+
+.angle-right {
+  top: 500px;
+  right: 545px;
+}
+
+/* fourth-layer  */
+
+.forth-layer {
+  height: 600px;
+  background-color: #f3f3f3;
+}
+
+.fourth-layer-img {
+  top: -200px;
+  left: 400px;
+}
+
+.fourth-layer-text {
+  text-align: center;
+  top: 250px;
+  left: 350px;
+  width: 900px;
+}
+
+.fourth-layer-text h2 {
+  font-family: "Handjet", sans-serif;
+  letter-spacing: 5px;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.fourth-layer-text p {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.fourth-layer-text a {
+  text-decoration: underline;
+  color: #057382;
+}
+
+.forth-layer .angle-icons {
+  background-color: #e0e0e0;
+}
+
+.forth-layer .angle-left {
+  left: 750px;
+  top: 450px;
+  color: black;
+}
+
+.forth-layer .angle-right {
+  top: 450px;
+  right: 730px;
+}
+
+.fifth-adj h2 {
+  margin-top: 50px;
+}
+
+.fifth-adj .m-three p {
+  margin-bottom: 20px;
+}
