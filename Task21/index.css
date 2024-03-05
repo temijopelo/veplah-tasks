@@ -2,3 +2,184 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  background-color: #fcfcfc;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar {
+  max-width: 96%;
+  margin: auto;
+}
+
+.logo {
+  width: 60px;
+  top: 20px;
+  left: 50px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav-link ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link li {
+  margin: 0 25px;
+  font-size: 13px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.nav-link {
+  right: 23px;
+  top: 20px;
+}
+
+/* landing img  */
+
+.home-img {
+  max-width: 90%;
+  margin: auto;
+}
+
+.home-img img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* second layer  */
+
+.second-layer {
+  height: 500px;
+}
+
+.second-layer-text {
+  text-align: center;
+  padding: 100px;
+  right: 200px;
+  color: black;
+}
+
+.second-layer-text h2 {
+  margin: 30px;
+}
+
+.second-layer-text h3 {
+  margin-bottom: 30px;
+}
+
+.second-layer-text p {
+  width: 1000px;
+  margin-bottom: 10px;
+  font-family: "Karla", sans-serif;
+}
+
+/* third layer  */
+
+.thirdlayerone {
+  left: 50px;
+  width: 480px;
+}
+
+.thirdlayertwo {
+  left: 550px;
+  width: 480px;
+}
+
+.thirdlayerthree {
+  right: 50px;
+  width: 480px;
+}
+
+.third-layer img {
+  width: 100%;
+}
+
+.third-layer {
+  height: 700px;
+}
+
+/* fourth-layer  */
+
+.fourth-layer {
+  height: 500px;
+}
+
+.fourth-layer-text {
+  text-align: center;
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.fourth-layer-text p {
+  margin-bottom: 20px;
+}
+
+.fourth-layer-img {
+  left: 70px;
+  margin-top: 50px;
+}
+
+/* fifth layer  */
+
+.fifth-layer {
+  height: 200px;
+}
+
+.fifth-layer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.fifth-layer li {
+  margin: 10px;
+}
+
+.fifth-layer i {
+  font-size: 20px;
+}
+
+.fifth-layer .footer-icons {
+  left: 750px;
+}
+
+.fifth-layer .footer-links {
+  top: 70px;
+  left: 520px;
+  font-size: 10px;
+}
+
+.fifth-layer .footer-links a {
+  margin-right: 10px;
+}
+
+.fifth-layer-text {
+  top: 130px;
+  text-align: center;
+  left: 710px;
+  font-size: 10px;
+}
+
+.ft-img {
+  left: 400px;
+  top: 30px;
+}
