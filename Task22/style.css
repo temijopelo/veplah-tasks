@@ -396,6 +396,10 @@ a {
 
 /* fourth layer  */
 
+.fourth-layer {
+  height: 1100px;
+}
+
 .fourth-layer-top {
   margin-bottom: 150px;
 }
@@ -453,4 +457,131 @@ a {
 .review-img img {
   width: 100%;
   border-radius: 100%;
+}
+
+/* contact us  */
+
+.contact-us-section {
+  background-color: #f8f9fa;
+  height: 700px;
+}
+
+.contact-us-form {
+  width: 600px;
+  margin: auto;
+  padding: 50px 30px 50px;
+}
+
+.contact-us-form h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.contact-us-form p {
+  color: #929292;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.top-input {
+  margin-right: 10px;
+}
+
+.contact-us-form form {
+}
+
+.contact-us-form input {
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #929292;
+}
+
+.contact-us-form textarea {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.contact-us-form .btn {
+  color: #fff;
+  font-weight: 800;
+  padding: 20px 60px;
+  font-size: 16px;
+}
+
+/* footer  */
+
+.footer-section {
+  height: 800px;
+  padding: 100px;
+}
+
+.about,
+.talk-to-us,
+.third-row {
+  position: absolute;
+}
+
+.footer-section h3 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  color: #929292;
+  line-height: 1.5;
+}
+
+.footer-section li {
+  margin: 20px 0;
+}
+
+.footer-section a {
+  color: #7971ea;
+}
+
+.about {
+  width: 350px;
+  left: 200px;
+}
+
+.talk-to-us {
+  left: 700px;
+}
+
+.third-row {
+  right: 100px;
+  width: 400px;
+}
+
+.cert-email {
+  margin: 20px 0;
+}
+
+.cert-email input {
+  padding: 20px;
+}
+
+.cert-email .btn {
+  border-radius: 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.bottom-footer {
+  text-align: center;
+  padding: 50px;
+  color: #929292;
+  font-weight: 300;
+}
+
+.bottom-footer a {
+  color: #7971ea;
+}
+
+.bottom-hr {
+  width: 75%;
+  margin: auto;
+  opacity: 0.3;
 }
