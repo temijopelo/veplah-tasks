@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.collapse-mobile {
+  display: none;
+}
+
+.nav-bg h3 {
+  font-size: 5rem;
+  width: 40%;
+}
+
+.nav-bg {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  align-items: center;
+}
+
+.contact-top,
+.nav-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-top a,
+.nav-links a {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: bold;
+}
+
+.landing {
+  display: flex;
+  padding: 3rem;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+}
+
+.landing .landing-img {
+  width: 25rem;
+  order: 2;
+}
+
+.landing .landing-img img {
+  width: 100%;
+  height: 30rem;
+
+  object-fit: cover;
+}
+
+.landing .social-icons {
+  order: 1;
+}
+
+.landing .landing-content {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.landing-content h1 {
+  order: 2;
+  font-size: 5rem;
+}
+
+.landing-content p {
+  font-size: 1rem;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.landing .social-icons {
+  align-self: flex-end;
+  font-size: 1rem;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.landing .social-icons a {
+  color: black;
+}
+
+.top-container {
+  background-color: bisque;
+}
+
+.selected-work {
+  background-color: #445635;
+  color: #fff;
+}

@@ -38,6 +38,14 @@ ul {
   margin-left: 1rem;
 }
 
+.nav-links {
+  display: none;
+}
+
+.contact-top {
+  display: none;
+}
+
 .top-nav h3 {
   width: 3rem;
   font-family: "Whisper", cursive;
